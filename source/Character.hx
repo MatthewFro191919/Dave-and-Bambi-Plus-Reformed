@@ -85,6 +85,8 @@ class Character extends FlxSprite
 
 				nativelyPlayable = true;
 
+				globalOffset = [10, 210];
+
 				flipX = true;
 			case 'bf-3d':
 				frames = Paths.getSparrowAtlas('characters/3d_bf', 'shared');
