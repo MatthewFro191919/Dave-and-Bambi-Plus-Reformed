@@ -79,11 +79,13 @@ class Character extends FlxSprite
 				skins.set('gfSkin', 'gf');
 				skins.set('3d', 'bf-3d');
 
-				barColor = FlxColor.fromRGB(49, 176, 209);
+				barColor = FlxColor.fromRGB(255, 244, 67);
 
 				playAnim('idle');
 
 				nativelyPlayable = true;
+
+				globalOffset = [10, 210];
 
 				flipX = true;
 			case 'bf-3d':
