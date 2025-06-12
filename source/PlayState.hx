@@ -2008,7 +2008,12 @@ class PlayState extends MusicBeatState {
 		bg.updateHitbox();
 		bg.visible = visible;
 		add(bg);
-		voidShader(bg);
+	        // below code assumes shaders are always enabled which is bad 
+		var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+		testshader.waveAmplitude = 0.1;
+		testshader.waveFrequency = 5;
+		testshader.waveSpeed = 2;
+		bg.shader = testshader.shader;
 		return bg;
 	}
 
