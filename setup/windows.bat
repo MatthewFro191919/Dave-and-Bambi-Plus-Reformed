@@ -16,5 +16,5 @@ haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
 haxelib git faxe https://github.com/uhrobots/faxe
 haxelib git polymod https://github.com/larsiusprime/polymod.git
-haxelib install hxcpp-debug-server
+haxelib git hxcpp-debug-server https://github.com/vshaxe/hxcpp-debugger
 haxelib list
