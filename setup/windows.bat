@@ -4,7 +4,7 @@ cd ..
 echo Installing dependencies, please wait...
 haxelib install hxcpp
 haxelib install lime 8.0.0
-haxelib install openfl
+haxelib install openfl 9.3.3
 haxelib install flixel 4.11.0
 haxelib run lime setup flixel
 haxelib run lime setup         
