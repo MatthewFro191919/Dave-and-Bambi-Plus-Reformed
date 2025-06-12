@@ -1,6 +1,6 @@
 #!/bin/sh
 # SETUP FOR MAC AND LINUX SYSTEMS!!!
-# REMINDER THAT YOU NEED HAXE INSTALLED PRIOR TO USING THIS
+# REMINDER THAT YOU NEED HAXE INSTALLED PRIOR TO USING THIShttps://github.com/MatthewFro191919/Dave-and-Bambi-Plus-Reformed/edit/main/setup/unix.sh
 # https://haxe.org/download
 cd ..
 echo Makking the main haxelib and setuping folder in same time..
@@ -9,7 +9,7 @@ echo Installing dependencies...
 echo This might take a few moments depending on your internet speed.
 haxelib install hxcpp
 haxelib install lime 8.0.0
-haxelib install openfl
+haxelib install openfl 9.3.3
 haxelib install flixel 4.11.0
 haxelib run lime setup flixel
 haxelib run lime setup         
