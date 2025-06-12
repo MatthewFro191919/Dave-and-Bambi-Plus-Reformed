@@ -2052,7 +2052,7 @@ class PlayState extends MusicBeatState {
 				addLayer('sign', 'backgrounds/farm/Sign', 125, 340, 1, 1);
 				addLayer('cornbag', 'backgrounds/farm/cornbag', 1320, 550, 1, 1);
 
-				bg1 = createEffectBG('RedSkyBG', -800, -500);
+				bg1 = createEffectBG('backgrounds/void/RedSkyBG', -800, -500);
 				bg2 = createEffectBG('backgrounds/void/multidimentional/Trippy', -800, -500, false);
 				bg3 = createEffectBG('backgrounds/void/multidimentional/PIlls', -800, -500, false);
 				bg4 = createEffectBG('backgrounds/void/multidimentional/Tubed', -800, -500, false);
